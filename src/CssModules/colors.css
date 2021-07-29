@@ -1,0 +1,12 @@
+:root {
+  --blue: rgb(71, 183, 187);
+  --white: cornsilk;
+  --black: black;
+  --clr-primary: #c1e6e1;
+  --clr-primary-hover: #e458d1;
+  --clr-primary-dark: #cf87d1;
+  --clr-green100: #76d6c6;
+  --clr-green200: #15f5d0;
+  --clr-gray100: #d9dedf;
+  --clr-gray200: #cfd8dc;
+}

@@ -1,0 +1,49 @@
+.new-task-section {
+  padding: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-task-input {
+  font-weight: 550;
+  border-radius: 3px;
+  border: 1px solid grey;
+  text-indent: 30px;
+  width: 500px;
+  height: 30px;
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #439cb8, #26ebe1);
+  border-radius: 3px;
+  width: 80px;
+  height: 35px;
+  margin-left: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+  opacity: 0.6;
+  border: 1px solid grey;
+}
+
+.add-btn.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+.add-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, #4d94aa, #257773);
+  color: var(--white);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .add-btn {
+    margin-left: 0;
+  }
+}

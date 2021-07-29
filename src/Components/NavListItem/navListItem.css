@@ -1,0 +1,12 @@
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-weight: 500;
+  font-size: var(--text-size-3);
+  color: var(--black);
+}
+
+li:hover {
+  cursor: pointer;
+  color: var(--clr-primary-hover);
+}

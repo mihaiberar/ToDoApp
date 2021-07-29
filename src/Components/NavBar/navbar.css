@@ -1,0 +1,62 @@
+h1,
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  font-weight: 500;
+  font-size: var(--text-size-3);
+  color: var(--black);
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: var(--clr-gray100);
+}
+
+.wishlist-img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-flex;
+  padding: 0 5px;
+}
+
+.navbar-section h1:hover {
+  color: var(--clr-primary-hover);
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-item {
+    display: flex;
+    padding: 0 5px;
+  }
+
+  .new-task-section {
+    padding: 10px 0px;
+  }
+
+  li,
+  h1,
+  p,
+  .new-task-input,
+  .add-btn {
+    font-size: var(--text-size-1);
+  }
+
+  .new-task-input {
+    width: 300px;
+  }
+
+  .add-btn {
+    margin-left: 0;
+  }
+}

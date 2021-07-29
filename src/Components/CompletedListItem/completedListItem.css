@@ -1,0 +1,48 @@
+@import "../../CssModules/colors.css";
+@import "../../CssModules/typography.css";
+
+.completedList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.completedList h1 {
+  margin-bottom: 20px;
+}
+
+.completedItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px 20px 20px;
+  border: 1px solid var(--black);
+}
+
+.completedListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 3px;
+  font-size: var(--text-size-2);
+}
+
+.completedListItem img {
+  cursor: pointer;
+  width: 15x;
+  height: 15px;
+  padding: 0 20px 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .completedList {
+    margin-top: 30px;
+  }
+
+  .completedListItem {
+    margin-top: 20px;
+  }
+}

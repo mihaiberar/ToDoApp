@@ -1,0 +1,13 @@
+@import "./CssModules/colors.css";
+@import "./CssModules/typography.css";
+
+html {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
